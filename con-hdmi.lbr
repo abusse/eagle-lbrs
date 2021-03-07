@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="HDMI-019S">
+<smd name="1" x="-7.59" y="4.5" dx="2.6" dy="0.28" layer="1" rot="R180"/>
+<smd name="2" x="-7.59" y="4" dx="2.6" dy="0.28" layer="1" rot="R180"/>
+<smd name="3" x="-7.59" y="3.5" dx="2.6" dy="0.28" layer="1" rot="R180"/>
+<smd name="4" x="-7.59" y="3" dx="2.6" dy="0.28" layer="1" rot="R180"/>
+<smd name="5" x="-7.59" y="2.5" dx="2.6" dy="0.28" layer="1" rot="R180"/>
+<smd name="6" x="-7.59" y="2" dx="2.6" dy="0.28" layer="1" rot="R180"/>
+<smd name="7" x="-7.59" y="1.5" dx="2.6" dy="0.28" layer="1" rot="R180"/>
+<smd name="8" x="-7.59" y="1" dx="2.6" dy="0.28" layer="1" rot="R180"/>
+<smd name="9" x="-7.59" y="0.5" dx="2.6" dy="0.28" layer="1" rot="R180"/>
+<smd name="10" x="-7.59" y="0" dx="2.6" dy="0.28" layer="1" rot="R180"/>
+<smd name="11" x="-7.59" y="-0.5" dx="2.6" dy="0.28" layer="1" rot="R180"/>
+<smd name="12" x="-7.59" y="-1" dx="2.6" dy="0.28" layer="1" rot="R180"/>
+<smd name="13" x="-7.59" y="-1.5" dx="2.6" dy="0.28" layer="1" rot="R180"/>
+<smd name="14" x="-7.59" y="-2" dx="2.6" dy="0.28" layer="1" rot="R180"/>
+<smd name="15" x="-7.59" y="-2.5" dx="2.6" dy="0.28" layer="1" rot="R180"/>
+<smd name="16" x="-7.59" y="-3" dx="2.6" dy="0.28" layer="1" rot="R180"/>
+<smd name="17" x="-7.59" y="-3.5" dx="2.6" dy="0.28" layer="1" rot="R180"/>
+<smd name="18" x="-7.59" y="-4" dx="2.6" dy="0.28" layer="1" rot="R180"/>
+<smd name="19" x="-7.59" y="-4.5" dx="2.6" dy="0.28" layer="1" rot="R180"/>
+<wire x1="-7.79" y1="-7.25" x2="-5.99" y2="-7.25" width="1.5" layer="1"/>
+<wire x1="-7.79" y1="7.25" x2="-5.99" y2="7.25" width="1.5" layer="1"/>
+<wire x1="-0.64" y1="-7.25" x2="0.86" y2="-7.25" width="1.5" layer="1"/>
+<wire x1="-0.64" y1="7.25" x2="0.86" y2="7.25" width="1.5" layer="1"/>
+<wire x1="-7.79" y1="-7.25" x2="-5.99" y2="-7.25" width="1.5" layer="16"/>
+<wire x1="-7.79" y1="7.25" x2="-5.99" y2="7.25" width="1.5" layer="16"/>
+<wire x1="-0.64" y1="-7.25" x2="0.86" y2="-7.25" width="1.5" layer="16"/>
+<wire x1="-0.64" y1="7.25" x2="0.86" y2="7.25" width="1.5" layer="16"/>
+<wire x1="-6.99" y1="-7.7" x2="-7.79" y2="-7.7" width="0.01" layer="20"/>
+<wire x1="-7.79" y1="-7.7" x2="-8.24" y2="-7.25" width="0.01" layer="20" curve="-90"/>
+<wire x1="-8.24" y1="-7.25" x2="-7.79" y2="-6.8" width="0.01" layer="20" curve="-90"/>
+<wire x1="-7.79" y1="-6.8" x2="-6.44" y2="-6.8" width="0.01" layer="20"/>
+<wire x1="-6.44" y1="-6.8" x2="-5.99" y2="-6.8" width="0.01" layer="20"/>
+<wire x1="-5.99" y1="-6.8" x2="-5.54" y2="-7.25" width="0.01" layer="20" curve="-90"/>
+<wire x1="-5.54" y1="-7.25" x2="-5.99" y2="-7.7" width="0.01" layer="20" curve="-90"/>
+<wire x1="-5.99" y1="-7.7" x2="-6.99" y2="-7.7" width="0.01" layer="20"/>
+<wire x1="0.21" y1="-7.7" x2="-0.64" y2="-7.7" width="0.01" layer="20"/>
+<wire x1="-0.64" y1="-7.7" x2="-1.09" y2="-7.25" width="0.01" layer="20" curve="-90"/>
+<wire x1="-1.09" y1="-7.25" x2="-0.64" y2="-6.8" width="0.01" layer="20" curve="-90"/>
+<wire x1="-0.64" y1="-6.8" x2="0.06" y2="-6.8" width="0.01" layer="20"/>
+<wire x1="0.06" y1="-6.8" x2="0.86" y2="-6.8" width="0.01" layer="20"/>
+<wire x1="0.86" y1="-6.8" x2="1.31" y2="-7.25" width="0.01" layer="20" curve="-90"/>
+<wire x1="1.31" y1="-7.25" x2="0.86" y2="-7.7" width="0.01" layer="20" curve="-90"/>
+<wire x1="0.86" y1="-7.7" x2="0.21" y2="-7.7" width="0.01" layer="20"/>
+<wire x1="0.31" y1="6.8" x2="-0.64" y2="6.8" width="0.01" layer="20"/>
+<wire x1="-0.64" y1="6.8" x2="-1.09" y2="7.25" width="0.01" layer="20" curve="-90"/>
+<wire x1="-1.09" y1="7.25" x2="-0.64" y2="7.7" width="0.01" layer="20" curve="-90"/>
+<wire x1="-0.64" y1="7.7" x2="0.36" y2="7.7" width="0.01" layer="20"/>
+<wire x1="0.36" y1="7.7" x2="0.86" y2="7.7" width="0.01" layer="20"/>
+<wire x1="0.86" y1="7.7" x2="1.31" y2="7.25" width="0.01" layer="20" curve="-90"/>
+<wire x1="1.31" y1="7.25" x2="0.86" y2="6.8" width="0.01" layer="20" curve="-90"/>
+<wire x1="0.86" y1="6.8" x2="0.31" y2="6.8" width="0.01" layer="20"/>
+<wire x1="-6.64" y1="6.8" x2="-7.79" y2="6.8" width="0.01" layer="20"/>
+<wire x1="-7.79" y1="6.8" x2="-8.24" y2="7.25" width="0.01" layer="20" curve="-90"/>
+<wire x1="-8.24" y1="7.25" x2="-7.79" y2="7.7" width="0.01" layer="20" curve="-90"/>
+<wire x1="-7.79" y1="7.7" x2="-6.69" y2="7.7" width="0.01" layer="20"/>
+<wire x1="-6.69" y1="7.7" x2="-5.99" y2="7.7" width="0.01" layer="20"/>
+<wire x1="-5.99" y1="7.7" x2="-5.54" y2="7.25" width="0.01" layer="20" curve="-90"/>
+<wire x1="-5.54" y1="7.25" x2="-5.99" y2="6.8" width="0.01" layer="20" curve="-90"/>
+<wire x1="-5.99" y1="6.8" x2="-6.64" y2="6.8" width="0.01" layer="20"/>
+<wire x1="-7.79" y1="-7.25" x2="-5.99" y2="-7.25" width="1.7" layer="29"/>
+<wire x1="-7.79" y1="-7.25" x2="-5.99" y2="-7.25" width="1.7" layer="30"/>
+<wire x1="-7.79" y1="7.25" x2="-5.99" y2="7.25" width="1.7" layer="29"/>
+<wire x1="-7.79" y1="7.25" x2="-5.99" y2="7.25" width="1.7" layer="30"/>
+<wire x1="-0.64" y1="-7.25" x2="0.86" y2="-7.25" width="1.7" layer="29"/>
+<wire x1="-0.64" y1="-7.25" x2="0.86" y2="-7.25" width="1.7" layer="30"/>
+<wire x1="-0.64" y1="7.25" x2="0.86" y2="7.25" width="1.7" layer="29"/>
+<wire x1="-0.64" y1="7.25" x2="0.86" y2="7.25" width="1.7" layer="30"/>
+<wire x1="-8.09" y1="-7.5" x2="3.51" y2="-7.5" width="0.127" layer="21"/>
+<wire x1="3.51" y1="-7.5" x2="3.51" y2="7.5" width="0.127" layer="21"/>
+<wire x1="3.51" y1="7.5" x2="-8.09" y2="7.5" width="0.127" layer="21"/>
+<wire x1="-8.09" y1="7.5" x2="-8.09" y2="-7.5" width="0.127" layer="21"/>
+<text x="-2.54" y="8.89" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.54" y="-10.16" size="1.27" layer="25" align="bottom-center">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="HDMI_TYPA">
+<pin name="TMDSDATA2+" x="20.32" y="22.86" length="middle" rot="R180"/>
+<pin name="TMDSDATA2SHIELD" x="20.32" y="20.32" length="middle" rot="R180"/>
+<pin name="TMDSDATA2-" x="20.32" y="17.78" length="middle" rot="R180"/>
+<pin name="TMDSDATA1+" x="20.32" y="15.24" length="middle" rot="R180"/>
+<pin name="TMDSDATA1SHIELD" x="20.32" y="12.7" length="middle" rot="R180"/>
+<pin name="TMDSDATA1-" x="20.32" y="10.16" length="middle" rot="R180"/>
+<pin name="TMDSDATA0+" x="20.32" y="7.62" length="middle" rot="R180"/>
+<pin name="TMDSDATA0SHIELD" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="TMDSDATA0-" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="TMDSCLOCK+" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="TMDSCLOCKSHIELD" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="TMDSCLOCK-" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="CEC" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="UTILITY/HEAC+" x="20.32" y="-10.16" length="middle" rot="R180"/>
+<pin name="SCL" x="20.32" y="-12.7" length="middle" rot="R180"/>
+<pin name="SDA" x="20.32" y="-15.24" length="middle" rot="R180"/>
+<pin name="DDC/CECGROUND" x="20.32" y="-17.78" length="middle" rot="R180"/>
+<pin name="+5VPOWER" x="20.32" y="-20.32" length="middle" rot="R180"/>
+<pin name="HOTPLUGDETECT/HEAC-" x="20.32" y="-22.86" length="middle" rot="R180"/>
+<wire x1="15.24" y1="25.4" x2="15.24" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-25.4" x2="-15.24" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-25.4" x2="-15.24" y2="25.4" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="25.4" x2="15.24" y2="25.4" width="0.254" layer="94"/>
+<text x="-15.24" y="26.67" size="1.778" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="HDMI-019S" prefix="CON">
+<gates>
+<gate name="G$1" symbol="HDMI_TYPA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HDMI-019S">
+<connects>
+<connect gate="G$1" pin="+5VPOWER" pad="18"/>
+<connect gate="G$1" pin="CEC" pad="13"/>
+<connect gate="G$1" pin="DDC/CECGROUND" pad="17"/>
+<connect gate="G$1" pin="HOTPLUGDETECT/HEAC-" pad="19"/>
+<connect gate="G$1" pin="SCL" pad="15"/>
+<connect gate="G$1" pin="SDA" pad="16"/>
+<connect gate="G$1" pin="TMDSCLOCK+" pad="10"/>
+<connect gate="G$1" pin="TMDSCLOCK-" pad="12"/>
+<connect gate="G$1" pin="TMDSCLOCKSHIELD" pad="11"/>
+<connect gate="G$1" pin="TMDSDATA0+" pad="7"/>
+<connect gate="G$1" pin="TMDSDATA0-" pad="9"/>
+<connect gate="G$1" pin="TMDSDATA0SHIELD" pad="8"/>
+<connect gate="G$1" pin="TMDSDATA1+" pad="4"/>
+<connect gate="G$1" pin="TMDSDATA1-" pad="6"/>
+<connect gate="G$1" pin="TMDSDATA1SHIELD" pad="5"/>
+<connect gate="G$1" pin="TMDSDATA2+" pad="1"/>
+<connect gate="G$1" pin="TMDSDATA2-" pad="3"/>
+<connect gate="G$1" pin="TMDSDATA2SHIELD" pad="2"/>
+<connect gate="G$1" pin="UTILITY/HEAC+" pad="14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
