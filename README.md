@@ -22,6 +22,11 @@
 * QH8KA4 `[TSMT8]:` 30V Nch+Nch Middle Power MOSFET 
 * BM92A14MWV `[UQFN40]:` USB Type-C Power Delivery Controller 
 
+# ST Microelectronics: `st-mictroelectronics.lbr`
+
+* [L7985](https://www.st.com/resource/en/datasheet/l7985.pdf) `[HSOP8-PAD, VFQFPN10]`: 2 A Step-Down Switching Regulator
+* [STUSB4500](https://www.st.com/resource/en/datasheet/stusb4500.pdf) `[QFN-24, WLCP25]`: Standalone USB PD Sink Controller with Short-to-VBUS Protections
+
 ## Texas Instruments: `ti.lbr`
 
 * [TPS54286](https://www.ti.com/lit/ds/symlink/tps54286.pdf) `[HTSSOP14]`: 2-A Dual Non-Synchronous Converter with Integrated High-Side MOSFET
