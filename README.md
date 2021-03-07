@@ -9,6 +9,10 @@
 * [HRS (Hirose) CX70M-24P1](https://www.hirose.com/de/product/document?clcode=CL0480-0304-0-00&productname=CX70M-24P1&series=CX&documenttype=Catalog&lang=de&documentid=D52488_en): Type C Female 24 SMT Connector
 * [XKB Connectivity U262-161N-4BVC11](https://datasheet.lcsc.com/szlcsc/2002271811_XKB-Connectivity-U262-161N-4BVC11_C319148.pdf): Type C Female 16 SMT Connector
 
+## Linear Technology: `linear-technology.lbr`
+
+* [LTC4307](https://www.analog.com/media/en/technical-documentation/data-sheets/4307f.pdf) `[MSOP8]` : Low Offset Hot Swappable 2-Wire Bus Buffer with Stuck Bus Recovery
+
 ## ROHM Semiconductor: `rohm.lbr`
 
 * QH8KA4 `[TSMT8]:` 30V Nch+Nch Middle Power MOSFET 
