@@ -13,3 +13,7 @@
 
 * QH8KA4 `[TSMT8]:` 30V Nch+Nch Middle Power MOSFET 
 * BM92A14MWV `[UQFN40]:` USB Type-C Power Delivery Controller 
+
+## Texas Instruments: `ti.lbr`
+
+* [TPS54286](https://www.ti.com/lit/ds/symlink/tps54286.pdf) `[HTSSOP14]`: 2-A Dual Non-Synchronous Converter with Integrated High-Side MOSFET
