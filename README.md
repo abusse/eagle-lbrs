@@ -13,6 +13,10 @@
 
 * [LTC4307](https://www.analog.com/media/en/technical-documentation/data-sheets/4307f.pdf) `[MSOP8]` : Low Offset Hot Swappable 2-Wire Bus Buffer with Stuck Bus Recovery
 
+## ON Semiconductor: `on-semiconductor.lbr`
+
+* [CAT24C208](https://www.onsemi.com/pdf/datasheet/cat24c208-d.pdf) `[SOIC8]`: EEPROM Serial 8-Kb I2C Dual Port
+
 ## ROHM Semiconductor: `rohm.lbr`
 
 * QH8KA4 `[TSMT8]:` 30V Nch+Nch Middle Power MOSFET 
