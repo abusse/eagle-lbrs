@@ -1,5 +1,9 @@
 # Eagle Libraries
 
+## Common Parts: [common-parts.lbr](common-parts.lbr)
+
+TODO
+
 ## Connector HDMI: [con-hdmi.lbr](con-hdmi.lbr)
 
 * [SOFNG HDMI-019S](https://datasheet.lcsc.com/szlcsc/2009111836_SOFNG-HDMI-019S_C111617.pdf)
